@@ -16,4 +16,8 @@ docker-compose run --rm app sh -c "python manage.py collectstatic"
 using flake8
 
 for linting errors, enter into the terminal:
-docker-compose run --rm app sh -c "flake8" 
+docker-compose run --rm app sh -c "flake8"
+
+# testing
+
+docker-compose run --rm app sh -c "python manage.py test"
