@@ -18,3 +18,8 @@ docker-compose run --rm app sh -c "flake8"
 
 into the terminal enter:
 docker-compose run --rm app sh -c "django-admin startproject app ."
+
+# github actions
+
+in .github/workflows/checks.yml there is a build pipeline that is defined. this runs
+every time code is pushed to github and checks for linting and testing errors 
