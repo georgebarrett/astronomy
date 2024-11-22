@@ -28,3 +28,8 @@ every time code is pushed to github and checks for linting and testing errors
 
 to run tests in django project that uses docker, type this into the terminal:
 docker-compose run --rm app sh -c "python manage.py test"
+
+# starting the server
+
+cd into root directory and enter into the terminal:
+docker-compose up
